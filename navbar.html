@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <style>
+        .topbarContainer{
+           height:50px;
+           display:flex;
+           background-color:rgb(236, 227, 227);
+           margin:0;   
+        }
+        .LeftbarCont{
+            flex:3;
+            display:flex;
+            align-items:center;
+            justify-content:start;
+        }
+        .logo{
+            height:35px;
+            width:35px;
+            border-radius:20px;
+            background-color:rgb(19, 23, 222);
+            color:white;
+            font-weight:bold;
+            font-size:30px;
+            border:none;
+           
+        }
+        .Search{
+            display:flex;
+            width: 50%;
+            height:20px;
+            border-radius: 10px;
+            border:none;
+            background-color:white;
+            align-items:center;
+            margin-left:5px;
+
+            
+        }
+        .icon{
+            font-size:15px;
+        }
+        .SearchBtn{
+            width:100%;
+            height:20px;
+            border-radius: 10px;
+            margin-right:20px;
+            border:none;
+        }
+       
+        
+        .CenterCont{
+            flex:4; 
+              
+        }
+        i{
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            margin-left:40px;
+        }
+        .RightbarCont{
+            flex:3;
+            display:flex;
+            align-items: cenetr;
+        }
+        .image{
+            height:30px;
+            width:30px;
+            border-radius:15px;
+            object-fit: cover;
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbarContainer">
+
+        <div class="LeftbarCont">
+            <button class="logo">f</button>
+            <div class="Search">
+                <button class="SearchBtn" placeholder="Search facebook"></button>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+        <div class="CenterCont">
+
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <i class="fa fa-play" aria-hidden="true"></i>
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <i class="fa fa-gamepad" aria-hidden="true"></i>
+
+        </div>
+
+        <div class="RightbarCont">
+
+            <i class="fa fa-th" aria-hidden="true"></i>
+            <i class="fa fa-comments" aria-hidden="true"></i>
+            <i class="fa fa-bell" aria-hidden="true"></i>
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsW3wgg9BUMe5KfgJfmVSnX-ibrWIrBYXhSZBTPu4D&s">
+
+        </div>
+
+    </div> 
+
+
+
+</body>
+</html>

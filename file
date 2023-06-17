@@ -1,0 +1,6 @@
+mkdir == make new directory
+ls == list directory contents
+cd == change directory
+rm == rename files or directory
+mv == move or rename files or directory
+cd ../ == move out of current directory
